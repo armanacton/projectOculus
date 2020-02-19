@@ -1,5 +1,5 @@
 - API scoping clarification to connect/export to another module/bunlder
-
+- how to update and make API calls if repo is moved to public (.env file and gitignore)
 
 - Queue; number in unassigned
 https://developer.zendesk.com/rest_api/docs/support/search#query-basics (grabbing logic from SLAckbot request)
@@ -7,6 +7,7 @@ https://developer.zendesk.com/rest_api/docs/support/search#query-basics (grabbin
 - Case volume (total number of cases created that day)
 https://actonsoftware.zendesk.com/api/v2/tickets.json -- filter for 'created_at' - check in the last day (midnight? business hours?)
 "created_at": "2017-12-01T21:42:55Z",
+-- starting at midnight PST/8am GMT - cases created since x time
 
 - Number of missed SLA (by Support package/tier)
 SLAckbot logic from above as well, will report if breached and with an hour leeway; need to rewrite logic for scope and call (will not refer to  outside of function logic)

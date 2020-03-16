@@ -40,28 +40,20 @@
 
 
 
-
+### Architecture
 
 D:.  
-|  	
-|	index.js  
-|  
-|_____	calculations  
-		|  
-		|	weekCalc.js  
-		|	monthCalc.js  	
-		|  
-_____views  
-		|  
-		|	index.handlebars  
-		|	daily.handlebars  
-		|	weekly.handlebars  
-		|	404.handlebars  
-		|  
-		|_____layouts  
-				|  
-				|	main.handlebars  
-				|  
+- index.js  
+- calculations   
+		- weekCalc.js  
+		- monthCalc.js   	 
+- views   
+	- index.handlebars  
+	- daily.handlebars  
+	- weekly.handlebars  
+	- 404.handlebars    
+	- layouts  
+		- main.handlebars    
 
 
 ### Instructions

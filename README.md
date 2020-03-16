@@ -42,35 +42,36 @@
 
 
 
-D:.
-|	
-|	index.js
-|
-|_____	calculations
-		|
-		|	weekCalc.js
-		|	monthCalc.js	
-		|
-_____views
-		|
-		|	index.handlebars
-		|	daily.handlebars
-		|	weekly.handlebars
-		|	404.handlebars
-		|
-		|_____layouts
-				|
-				|	main.handlebars
-				|
+D:.  
+|  	
+|	index.js  
+|  
+|_____	calculations  
+		|  
+		|	weekCalc.js  
+		|	monthCalc.js  	
+		|  
+_____views  
+		|  
+		|	index.handlebars  
+		|	daily.handlebars  
+		|	weekly.handlebars  
+		|	404.handlebars  
+		|  
+		|_____layouts  
+				|  
+				|	main.handlebars  
+				|  
 
 
-###Instructions
+### Instructions
 
 Run locally
 
 - Make sure you are in the correct folder and run this command on your terminal:
 
-```& node index.js
+```
+& node index.js
 ```
 
 This will run locally on port 8080.
